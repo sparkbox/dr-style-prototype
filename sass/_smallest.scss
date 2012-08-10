@@ -68,7 +68,7 @@ body {
 /* PRIMARY HEADING */
 
 h1 {
-	margin: 0 0 0.5em 0;
+	margin: 0 0 0 0;
 
   font-family: 'Montserrat', sans-serif;
 	font-size: 1.3em;
@@ -140,7 +140,7 @@ button {
 
       margin-right: $swatch-margin / 2;
       background: url(../img/bg-texture-dark.jpg) -50% 0 repeat;
-      padding: 20px 20px 0;
+      padding: 20px;
       text-align: center;
 
 
