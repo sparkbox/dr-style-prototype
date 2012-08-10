@@ -421,7 +421,8 @@ body {
   .logo img {
     margin: 0 auto;
     width: 40%;
-    max-width: 240px; }
+    max-width: 240px;
+    max-height: 232px; }
 
 /* MAIN */
 .main {
