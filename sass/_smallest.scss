@@ -117,46 +117,6 @@ button {
 	margin: 0 auto;
 }
 
-/* COLORS */
-
-.colors {
-	float: left;
-	padding-bottom: $swatch-margin;
-	width: 100%;
-
-	ul {
-		padding: 0;
-		margin: 0;
-	}
-		
-	li {
-		@include hide-text;
-
-		list-style-type: none;
-
-		float: left;
-		width: ( 100% - ( $swatch-margin * ($num-colors - 1) ) ) / $num-colors;
-
-		.lt-ie9 & {
-      width: (( 100% - ( $swatch-margin * ($num-colors - 1) ) ) / $num-colors) - 1;
-		}
-
-		padding-bottom: 18%;
-		margin: 0 $swatch-margin 0 0;
-
-		background-color: #222;
-
-		&:last-child {
-			margin-right: 0;
-		}
-	}
-
-	.primary { background-color: $primary; }
-	.secondary { background-color: $secondary; }
-	.neutral { background-color: $neutral; }
-}
-
-
 /* DETAILS */
 
 .details {
@@ -246,4 +206,43 @@ button {
 
     }
 	}
+}
+
+/* COLORS */
+
+.colors {
+	float: left;
+	padding-bottom: $swatch-margin;
+	width: 100%;
+
+	ul {
+		padding: 0;
+		margin: 0;
+	}
+		
+	li {
+		@include hide-text;
+
+		list-style-type: none;
+
+		float: left;
+		width: ( 100% - ( $swatch-margin * ($num-colors - 1) ) ) / $num-colors;
+
+		.lt-ie9 & {
+      width: (( 100% - ( $swatch-margin * ($num-colors - 1) ) ) / $num-colors) - 1;
+		}
+
+		padding-bottom: 18%;
+		margin: 0 $swatch-margin 0 0;
+
+		background-color: #222;
+
+		&:last-child {
+			margin-right: 0;
+		}
+	}
+
+	.primary { background-color: $primary; }
+	.secondary { background-color: $secondary; }
+	.neutral { background-color: $neutral; }
 }
