@@ -408,7 +408,7 @@ td {
 
 body {
   font: 100%/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  background: #e4e4e4 url(/img/bg-texture-light.jpg); }
+  background: #e4e4e4 url(../img/bg-texture-light.jpg); }
   .lt-ie9 body {
     min-width: 960px; }
 
@@ -437,10 +437,10 @@ body {
   background-color: white;
   background-clip: padding-box;
   border-width: 9px 0;
-  -o-border-image: url(/img/zig.png) 9 6 9 6 repeat;
-  -moz-border-image: url(/img/zig.png) 9 6 9 6 repeat;
-  -webkit-border-image: url(/img/zig.png) 9 6 9 6 repeat;
-  border-image: url(/img/zig.png) 9 6 9 6 repeat; }
+  -o-border-image: url(../img/zig.png) 9 6 9 6 repeat;
+  -moz-border-image: url(../img/zig.png) 9 6 9 6 repeat;
+  -webkit-border-image: url(../img/zig.png) 9 6 9 6 repeat;
+  border-image: url(../img/zig.png) 9 6 9 6 repeat; }
 
 /* PRIMARY HEADING */
 h1 {
@@ -524,7 +524,7 @@ button {
     .details li.a {
       /* green shirt */
       margin-right: 1%;
-      background: url(/img/bg-texture-dark.jpg) -50% 0 repeat;
+      background: url(../img/bg-texture-dark.jpg) -50% 0 repeat;
       padding: 20px 20px 0;
       text-align: center; }
       .details li.a img {
