@@ -75,6 +75,7 @@ h1 {
 	font-size: 1.3em;
 	font-weight: 400;
 	line-height: 1;
+  letter-spacing: 0.1em;
   text-transform: uppercase;
 
 	color: black;
@@ -87,26 +88,32 @@ p {
 	font-size: 0.9em;
 	line-height: 1.9;
 
-  margin-bottom: 1em;
+  margin-bottom: 1.5em;
 }
 
 /* BUTTON */
 
-button { 
-	font-family: 'Yanone Kaffeesatz', sans-serif;
-	font-size: 1em;
-	font-weight: 700;
-	text-transform: uppercase;
+.button {
+  font-family: 'Montserrat', sans-serif;
+  padding: 0.5em 1em;
+  letter-spacing: 0.2em;
+  text-decoration: none;
+  text-transform: uppercase;
 
-	width: 100%;
-	padding: 0.7em 1.4em;
-
-	background-color: $primary;
-	border: 0 solid black;
-
-	&:hover, &:focus {
-		background-color: lighten($primary, 10%);
-	}
+  &:link,
+  &:visited {
+    background: $secondary;
+    color: white;
+  }
+  &:hover {
+    background: black;
+    color: $secondary;
+  }
+  &:after {
+    content: "➨";
+    position: relative;
+    left: 0.3em;
+  }
 }
 
 /* SWATCHES */
